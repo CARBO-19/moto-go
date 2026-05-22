@@ -1,0 +1,65 @@
+body {
+  background-image: url("sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 10px;
+}
+
+
+h1{
+  font-size: 70px;
+  text-align: center;
+  font-family: 'motogp';
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'motogp';
+  src: url('MotoGP Display Bold.ttf');
+}
+
+h2{
+  font-family: 'motogp';
+  text-align: center;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+#container{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.piloti{
+  width: 17%;
+  height: auto;
+  filter: grayscale(1) blur(12px);
+}
+
+.piloti:hover{
+  filter: none;
+  transition: 0.9s;
+
+}
+
+
+.moto{
+  width: 17%;
+  height: auto;
+  filter: grayscale(1) blur(10px);
+}
+
+.moto:hover{
+  filter: none;
+  transition: 0.9s;
+
+}
+
+
+
+
